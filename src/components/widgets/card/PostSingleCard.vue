@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-media src="/static/nature/n3.jpeg" :height="imageHeight" class="white--text">
+    <v-card-media src="/vue-material-admin/static/nature/n3.jpeg" :height="imageHeight" class="white--text">
       <v-layout row justify-space-between class="ma-0">
         <v-flex xs2>
           <v-icon color="white">favorite</v-icon>

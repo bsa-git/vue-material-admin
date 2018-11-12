@@ -3,7 +3,7 @@ const Fs = require('fs');
 const range = (start, end) => new Array(end - start).fill(start).map((el, i) => start + i);
 const randomInt  = (max) => Math.floor(Math.random() * max) + 1;
 // chats
-const chats = JSON.parse(Fs.readFileSync('./static/data/chat.json', 'UTF-8'));
+const chats = JSON.parse(Fs.readFileSync('./vue-material-admin/static/data/chat.json', 'UTF-8'));
 const chatIds = [];
 const messages = [];
 chats.forEach((item) => {

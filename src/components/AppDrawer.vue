@@ -98,7 +98,7 @@ export default {
       return true;
     },
     computeLogo () {
-      return '/static/m.png';
+      return '/vue-material-admin/static/m.png';
     },
 
     sideToolbarColor () {

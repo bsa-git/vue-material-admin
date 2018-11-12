@@ -3,7 +3,7 @@ const Fs = require('fs');
 let range = (start, end) => new Array(end - start).fill(start).map((el, i) => start + i);
 const MailType = ['sent', 'draft', 'starred', 'trashed'];
 const MailTag = ['Promotion', 'Work', 'Personal', 'Social'];
-const users = JSON.parse(Fs.readFileSync('./static/data/user.json', 'UTF-8'));
+const users = JSON.parse(Fs.readFileSync('./vue-material-admin/static/data/user.json', 'UTF-8'));
 const Mails = range(0, 20).map(() => {
   let name = Faker.name.findName();
   return {

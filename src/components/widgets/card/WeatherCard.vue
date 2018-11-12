@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-media src="/static/nature/n5.jpeg" height="350">
+    <v-card-media src="/vue-material-admin/static/nature/n5.jpeg" height="350">
       <v-layout column class="media ma-0">
         <v-card-title>
           <v-btn dark icon>

@@ -52,7 +52,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../docs'), // assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/vue-material-admin',
+    assetsPublicPath: '/', // vue-material-admin
 
     /**
      * Source Maps

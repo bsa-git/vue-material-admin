@@ -3,7 +3,7 @@
     <div>
       <v-btn icon large flat slot="activator">
         <v-avatar>
-          <img src="/static/avatar/man_4.jpg" alt="Micahel Wang">
+          <img src="/vue-material-admin/static/avatar/man_4.jpg" alt="Micahel Wang">
         </v-avatar>
       </v-btn>
     </div>

@@ -57,7 +57,7 @@
             <div slot="widget-content">
               <v-text-field label="Gradient" v-model="gradient2"></v-text-field>
               <v-jumbotron
-                src="/static/bg/16.jpg"
+                src="/vue-material-admin/static/bg/16.jpg"
                 :gradient="gradient2"
                 dark
               >

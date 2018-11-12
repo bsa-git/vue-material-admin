@@ -19,7 +19,7 @@ const randomArray = (arr, n) => {
   return result;
 };
 
-const users = JSON.parse(Fs.readFileSync('./static/data/user.json', 'UTF-8'));
+const users = JSON.parse(Fs.readFileSync('./vue-material-admin/static/data/user.json', 'UTF-8'));
 const uids = [];
 users.forEach((item) => {
   uids.push(item.uuid);

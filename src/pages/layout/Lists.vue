@@ -236,7 +236,7 @@
             </div>
           </v-widget>
           <v-card class="mt-3">
-            <v-card-media src="/static/bg/15.jpg" height="300px">
+            <v-card-media src="/vue-material-admin/static/bg/15.jpg" height="300px">
               <v-layout column class="media">
                 <v-card-title>
                   <v-btn dark icon>

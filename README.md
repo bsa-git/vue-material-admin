@@ -9,7 +9,7 @@ Vuetify is Awesome.
 [http://vma.isocked.com/#/dashboard](http://vma.isocked.com/#/dashboard) 
 
 ### Preview
-![Preivew](http://vma.isocked.com//static/preview/01_preview.png)
+![Preivew](http://vma.isocked.com//vue-material-admin/static/preview/01_preview.png)
 
 ###
 ### Project Structure

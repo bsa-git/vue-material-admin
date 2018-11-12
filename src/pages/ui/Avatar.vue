@@ -10,7 +10,7 @@
                   <v-icon dark>account_circle</v-icon>
                 </v-avatar>
                 <v-avatar>
-                  <img src="/static/avatar/me.jpeg" alt="John">
+                  <img src="/vue-material-admin/static/avatar/me.jpeg" alt="John">
                 </v-avatar>
                 <v-badge overlap>
                   <span slot="badge">3</span>
@@ -48,7 +48,7 @@
                           slot="activator"
                         >
                           <img
-                            src="/static/avatar/me.jpeg"
+                            src="/vue-material-admin/static/avatar/me.jpeg"
                             alt=""
                             v-if="message.avatar"
                           >
@@ -121,7 +121,7 @@
                       :size="avatarSize"
                       class="grey lighten-4"
                     >
-                      <img src="/static/avatar/me.jpeg" alt="avatar">
+                      <img src="/vue-material-admin/static/avatar/me.jpeg" alt="avatar">
                     </v-avatar>
                   </v-flex>
                 </v-layout>
