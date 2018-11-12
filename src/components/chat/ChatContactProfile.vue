@@ -2,7 +2,7 @@
   <v-container fluid fill-height class="pa-0 ma-0 white" id="profile">
     <v-layout column class="pa-0 ma-0">
       <v-card class="elevation-0">
-        <v-card-media height="380" src="/vue-material-admin/static/bg/4.jpg">
+        <v-card-media height="380" src="/static/bg/4.jpg">
           <v-layout column align-center justify-center>
             <v-avatar size="200" class="mx-5">
               <img :src="user.avatar" :alt="user.name">

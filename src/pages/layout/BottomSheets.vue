@@ -53,7 +53,7 @@
                     >
                       <v-list-tile-avatar>
                         <v-avatar size="32px" tile>
-                          <img :src="`/vue-material-admin/static/icon/${tile.img}`" :alt="tile.title">
+                          <img :src="`/static/icon/${tile.img}`" :alt="tile.title">
                         </v-avatar>
                       </v-list-tile-avatar>
                       <v-list-tile-title>{{ tile.title }}</v-list-tile-title>

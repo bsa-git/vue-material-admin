@@ -38,7 +38,7 @@
       <v-menu offset-y origin="center center" :nudge-bottom="10" transition="scale-transition">
         <v-btn icon large flat slot="activator">
           <v-avatar size="30px">
-            <img src="/vue-material-admin/static/avatar/man_4.jpg" alt="Michael Wang"/>
+            <img src="/static/avatar/man_4.jpg" alt="Michael Wang"/>
           </v-avatar>
         </v-btn>
         <v-list class="pa-0">

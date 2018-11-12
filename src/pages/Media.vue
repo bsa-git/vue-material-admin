@@ -116,7 +116,7 @@ export default {
     size: 'lg',
     view: 'grid',
     selectedFile: {
-      path: '/vue-material-admin/static/icon/empty_file.svg'
+      path: '/static/icon/empty_file.svg'
     },
     imageMime: [
       'image/jpeg',
@@ -167,7 +167,7 @@ export default {
       return (string) ? new Date(string).toLocaleDateString() : '';
     },
     computeFileImage (file) {
-      return this.isImage(file) ? file.path : '/vue-material-admin/static/icon/file_empty.svg';
+      return this.isImage(file) ? file.path : '/static/icon/file_empty.svg';
     }
   },  
 };

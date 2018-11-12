@@ -19,7 +19,7 @@
                   </div>                  
                   <div class="timeline-point">
                     <v-avatar>
-                      <img src="/vue-material-admin/static/avatar/me.jpeg" alt="">
+                      <img src="/static/avatar/me.jpeg" alt="">
                     </v-avatar>
                   </div>
                   <div class="timeline-detail">
@@ -34,7 +34,7 @@
                         <v-container grid-list-md>
                           <div class="layout row align-center ma-0">
                             <v-avatar class="mx-auto" color="info">
-                              <img src="/vue-material-admin/static/avatar/a1.jpg">
+                              <img src="/static/avatar/a1.jpg">
                             </v-avatar>
                             <div class="text-center flex ml-2">
                               <div class="subheading">John Doe</div>
@@ -59,7 +59,7 @@
                   <div class="timeline-content">
                   <v-card>
                     <v-card-media
-                      src="/vue-material-admin/static/bg/5.jpg"
+                      src="/static/bg/5.jpg"
                       height="200px"
                     >
                     </v-card-media>

@@ -64,14 +64,14 @@ export default {
   computed: {
   },  
   created () {
-    fetch('/vue-material-admin/static/data/material.json')
+    fetch('/static/data/material.json')
       .then(response => {
         return response.json();
       })
       .then(json => {
         this.material = json.icons.splice(0, 100);
       });
-    fetch('/vue-material-admin/static/data/font-awesome.json')
+    fetch('/static/data/font-awesome.json')
       .then(response => {
         return response.json();
       })

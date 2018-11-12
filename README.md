@@ -9,7 +9,7 @@ Vuetify is Awesome.
 [http://vma.isocked.com/#/dashboard](http://vma.isocked.com/#/dashboard) 
 
 ### Preview
-![Preivew](http://vma.isocked.com//vue-material-admin/static/preview/01_preview.png)
+![Preivew](http://vma.isocked.com//static/preview/01_preview.png)
 
 ###
 ### Project Structure
@@ -85,4 +85,4 @@ If you find this project useful, you can buy author a glass of juice :tropical_d
 
 ## License
 
-[MIT](https://github.com/tookit/vue-material-admin/blob/master/LICENSE)
+[MIT](https://github.com/tookit/blob/master/LICENSE)

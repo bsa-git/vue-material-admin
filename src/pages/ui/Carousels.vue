@@ -36,16 +36,16 @@ export default {
     return {
       items: [
         {
-          src: '/vue-material-admin/static/nature/n1.jpeg'
+          src: '/static/nature/n1.jpeg'
         },
         {
-          src: '/vue-material-admin/static/nature/n2.jpeg'
+          src: '/static/nature/n2.jpeg'
         },
         {
-          src: '/vue-material-admin/static/nature/n3.jpeg'
+          src: '/static/nature/n3.jpeg'
         },
         {
-          src: '/vue-material-admin/static/nature/n4.jpeg'
+          src: '/static/nature/n4.jpeg'
         }
       ]      
     };
