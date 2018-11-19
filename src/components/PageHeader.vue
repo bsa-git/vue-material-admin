@@ -5,10 +5,10 @@
     </div>
     <v-breadcrumbs divider="-">
       <v-breadcrumbs-item>
-      <v-icon larg>home</v-icon>
+        <v-icon larg>home</v-icon>
       </v-breadcrumbs-item>
       <v-breadcrumbs-item v-for="(item,key) in breadcrumbs" :key="key">
-      {{ item }}
+        {{ item }}
       </v-breadcrumbs-item>
     </v-breadcrumbs>
     <v-spacer></v-spacer>
@@ -17,11 +17,12 @@
         <v-icon class="text--secondary">refresh</v-icon>
       </v-btn>
     </div>
-  </v-layout>  
+  </v-layout>
 </template>
 
 <script>
 import menu from '@/api/menu';
+
 export default {
   data () {
     return {
@@ -33,7 +34,7 @@ export default {
       let breadcrumbs = [];
       menu.forEach(item => {
         if (item.items) {
-          let child =  item.items.find(i => {
+          let child = item.items.find(i => {
             return i.component === this.$route.name;
           });
           if (child) {
@@ -49,7 +50,7 @@ export default {
         }
       });
       return breadcrumbs;
-    },    
+    },
   }
 };
 </script>

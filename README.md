@@ -6,7 +6,7 @@ And use [Vuetifyjs](https://vuetifyjs.com/) as base framework.
 Vuetify is Awesome.
 
 ### Demo
-[http://vma.isocked.com/#/dashboard](http://vma.isocked.com/#/dashboard) 
+[https://bsa-git.github.io/vue-material-admin/#/dashboard](https://bsa-git.github.io/vue-material-admin/#/dashboard)
 
 ### Preview
 ![Preivew](http://vma.isocked.com//static/preview/01_preview.png)
