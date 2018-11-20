@@ -1,9 +1,13 @@
 # Vue Material Admin
 
 ### Introduction
+
 Vue Material Admin Template is a [Vue](https://vuejs.org/index.html/) Based Material Design Admin Template.
 And use [Vuetifyjs](https://vuetifyjs.com/) as base framework.
 Vuetify is Awesome.
+
+
+The original design is [here](https://github.com/tookit/vue-material-admin).
 
 ### Demo
 [https://bsa-git.github.io/vue-material-admin/#/dashboard](https://bsa-git.github.io/vue-material-admin/#/dashboard)
